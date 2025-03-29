@@ -42,7 +42,24 @@
     
 </head>
 <body> 
+    
     <h1><a href="index.html">Web</a></h1>
+    <input type="button" value="night" onclick="
+    var bodytag=document.querySelector('body');
+    if(this.value==='night'){
+        
+        bodytag.style.backgroundColor ='black';
+        bodytag.style.color ='white';
+        this.value='day';
+    }
+    else{
+        bodytag.style.backgroundColor ='white';
+        bodytag.style.color ='black';
+        this.value='night'
+    }
+    ">
+
+
 <div id="grid">
     <ol>    
         <li><a href="1.html">HTML</a></li>
